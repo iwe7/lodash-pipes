@@ -3,3 +3,35 @@
 ```html
 <span>{{obj | at: 'a.c' |json}}</span>
 ```
+
+### install
+
+```
+yarn add lodash-pipes
+```
+
+### modules
+
+* PipesArrayModule
+* PipesCollectionModule
+* PipesLangModule
+* PipeMathModule
+* PipeNumberModule
+* PipeObjectModule
+* PipeOtherModule
+* PipeStringModule
+* PipeUtilModule
+
+```ts
+import {
+  PipesArrayModule,
+  PipesCollectionModule,
+  PipesLangModule,
+  PipeMathModule,
+  PipeNumberModule,
+  PipeObjectModule,
+  PipeOtherModule,
+  PipeStringModule,
+  PipeUtilModule
+} from "lodash-pipes";
+```
