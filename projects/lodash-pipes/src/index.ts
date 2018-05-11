@@ -7,3 +7,4 @@ export * from './src/object/index';
 export * from './src/other/index';
 export * from './src/string/index';
 export * from './src/util/index';
+export * from './src/ng/index';

@@ -21,7 +21,6 @@ import { IsBooleanPipe } from "./is-boolean.pipe";
 
 import { IsBufferPipe } from "./is-buffer.pipe";
 import { IsDatePipe } from "./is-date.pipe";
-import { IsElementPipe } from "./is-element.pipe";
 import { IsEmptyPipe } from "./is-empty.pipe";
 import { IsEqualWithPipe } from "./is-equal-with.pipe";
 
@@ -85,7 +84,6 @@ export const LangPipes = [
 
   IsBufferPipe,
   IsDatePipe,
-  IsElementPipe,
   IsEmptyPipe,
   IsEqualWithPipe,
 
